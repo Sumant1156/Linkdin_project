@@ -4,6 +4,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { AiFillLike, AiOutlineSecurityScan } from "react-icons/ai";
 import { datacontext } from "../Parent";
 import axios from "axios";
+axios.defaults.withCredentials = true;
 import { AiOutlineSend } from "react-icons/ai";
 import { IoMdTrendingUp } from "react-icons/io";
 import { io } from "socket.io-client";
