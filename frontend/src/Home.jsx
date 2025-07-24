@@ -10,7 +10,7 @@ import Editprofile from "./editprofile";
 import { FaImages } from "react-icons/fa";
 import Postcreate from "./Postcreate";
 import axios from "axios";
-
+axios.defaults.withCredentials = true;
 function Home() {
   const {
     userdata,
