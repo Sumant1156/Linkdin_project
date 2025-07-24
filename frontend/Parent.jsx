@@ -3,7 +3,7 @@ import axios from "axios";
 export const datacontext = createContext();
 
 function Parent({ children }) {
-  const serverurl = "https://linkdin-backend-jo4v.onrender.com";
+  const serverurl = "https://linkdin-project-5tpo.onrender.com";
   let [userdata, setuserdata] = useState("");
   const [showedit, setshowedit] = useState(false);
   const [showpost, setshowpost] = useState(false);
