@@ -7,7 +7,7 @@ import axios from "axios";
 import { AiOutlineSend } from "react-icons/ai";
 import { IoMdTrendingUp } from "react-icons/io";
 import { io } from "socket.io-client";
-let socket = io("https://linkdin-backend-jo4v.onrender.com");
+let socket = io("https://linkdin-project-5tpo.onrender.com");
 function Postcreate({
   id,
   author,
