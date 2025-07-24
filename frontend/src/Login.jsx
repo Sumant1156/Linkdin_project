@@ -3,6 +3,7 @@ import logo from "/src/assets/logo.svg";
 import { useNavigate } from "react-router";
 import { datacontext } from "../Parent.jsx";
 import axios from "axios";
+axios.defaults.withCredentials = true;
 function Login() {
   const { setuserdata } = useContext(datacontext);
   const { serverurl } = useContext(datacontext);
